@@ -1,0 +1,72 @@
+[0m13:33:38.663169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8567611D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8566DF510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C856745790>]}
+
+
+============================== 13:33:38.667160 | a81042f1-1a31-48a6-afcd-9346efc82a68 ==============================
+[0m13:33:38.667160 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:33:38.668159 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'D:\\UMASS data\\ecommerce_project\\logs', 'profiles_dir': 'C:\\Users\\qwc12\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:33:38.672671 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce_project'
+[0m13:33:38.674665 [debug] [MainThread]: Command `dbt run` failed at 13:33:38.674665 after 0.10 seconds
+[0m13:33:38.674665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8567614D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8566EA0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C84F93EFD0>]}
+[0m13:33:38.675663 [debug] [MainThread]: Flushing usage events
+[0m13:37:25.015896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8BBD3F910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8BBD2CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8BBB63450>]}
+
+
+============================== 13:37:25.019885 | c3b65111-7050-4c68-9120-2ba5e4922922 ==============================
+[0m13:37:25.019885 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:37:25.021392 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\qwc12\\.dbt', 'log_path': 'D:\\UMASS data\\ecommerce_project\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:37:25.023868 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce_project'
+[0m13:37:25.025899 [debug] [MainThread]: Command `dbt run` failed at 13:37:25.025899 after 0.09 seconds
+[0m13:37:25.026900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8BBCEA290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8BBD3EDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8B4F1EFD0>]}
+[0m13:37:25.026900 [debug] [MainThread]: Flushing usage events
+[0m20:16:37.654642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2C7385A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2C72FF510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2C7362510>]}
+
+
+============================== 20:16:37.688066 | 5c4d5e1f-261f-403e-9d71-9db83c9add25 ==============================
+[0m20:16:37.688066 [info ] [MainThread]: Running with dbt=1.8.7
+[0m20:16:37.689064 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\qwc12\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'D:\\UMASS data\\ecommerce_project\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:16:37.692057 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce_project'
+[0m20:16:37.694050 [debug] [MainThread]: Command `dbt run` failed at 20:16:37.694050 after 2.20 seconds
+[0m20:16:37.695048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2C4590C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2C734D0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2C05CEFD0>]}
+[0m20:16:37.696045 [debug] [MainThread]: Flushing usage events
+[0m11:51:59.577358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2FB1D6B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2FE2F5250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2FE2F5510>]}
+
+
+============================== 11:51:59.593941 | 08d2f05d-b56a-478b-85a1-a014f323bde9 ==============================
+[0m11:51:59.593941 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:51:59.597940 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\qwc12\\.dbt', 'log_path': 'D:\\UMASS data\\ecommerce_project\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:51:59.605609 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce_project'
+[0m11:51:59.608598 [debug] [MainThread]: Command `dbt run` failed at 11:51:59.608598 after 0.13 seconds
+[0m11:51:59.610209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2FE2DD790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2FE29A150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2F758EFD0>]}
+[0m11:51:59.611206 [debug] [MainThread]: Flushing usage events
+[0m21:26:48.471200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E162B01850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E162AE2610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E162AE0910>]}
+
+
+============================== 21:26:53.184477 | fefa3c5b-e6cd-48a5-b63e-06c81ca6289c ==============================
+[0m21:26:53.184477 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:26:53.197231 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\UMASS data\\ecommerce_project\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\qwc12\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:26:53.210190 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce_project'
+[0m21:26:53.216173 [debug] [MainThread]: Command `dbt run` failed at 21:26:53.216173 after 8.95 seconds
+[0m21:26:53.219166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E162AE0790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E162A8A310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E162AF7290>]}
+[0m21:26:53.221163 [debug] [MainThread]: Flushing usage events
+[0m21:34:35.928029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAB535250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAB52EC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAB534ED0>]}
+
+
+============================== 21:34:35.931530 | c14038a5-15fe-4487-b27a-f0a1f31e05ef ==============================
+[0m21:34:35.931530 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:34:35.932572 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\qwc12\\.dbt', 'log_path': 'D:\\UMASS data\\ecommerce_project\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:35.935055 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ecommerce_project'
+[0m21:34:35.936053 [debug] [MainThread]: Command `dbt run` failed at 21:34:35.936053 after 0.09 seconds
+[0m21:34:35.937050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAB5512D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAB4DA110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAB534ED0>]}
+[0m21:34:35.938047 [debug] [MainThread]: Flushing usage events
