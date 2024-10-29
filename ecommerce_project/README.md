@@ -1,11 +1,6 @@
-Welcome to your new dbt project!
+DBT Assignment for Data Engineering 690-A01
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
+Can find the required ecommerce project data inside the folder above.
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
